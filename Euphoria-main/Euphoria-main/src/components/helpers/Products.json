@@ -1,0 +1,335 @@
+{
+  "products": {
+    "Men": [
+      {
+        "id": 1,
+        "image": "/assets/images/img-5.jpg",
+        "category": "Shirts",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/assets/images/img-6.jpg",
+        "category": "Printed T-Shirts",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/assets/images/img-7.jpg",
+        "category": "Plain T-Shirt",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 4,
+
+        "image": "/assets/images/img-8.jpg",
+        "category": "Polo T-Shirt",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "image": "/assets/images/img-9.jpg",
+        "category": "Hoodies & Sweetshirt",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "image": "/assets/images/img-10.jpg",
+        "category": "Jeans",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "image": "/assets/images/Rectangle22.jpg",
+        "category": "Activewear",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "image": "/assets/images/img-11.jpg",
+        "category": "Boxers",
+        "detail_images": [
+          "/assets/images/img-5.jpg",
+          "/assets/images/img-6.jpg",
+          "/assets/images/img-7.jpg",
+          "/assets/images/img-8.jpg",
+          "/assets/images/img-9.jpg",
+          "/assets/images/img-10.jpg",
+          "/assets/images/Rectangle22.jpg",
+          "/assets/images/img-11.jpg"
+        ]
+      }
+    ],
+    "Women": [
+      {
+        "id": 9,
+        "image": "/assets/images/img-12.jpg",
+        "category": "Hoodies & Sweetshirt",
+        "detail_images": [
+          "/assets/images/img-12.jpg",
+          "/assets/images/img-13.jpg",
+          "/assets/images/img-14.jpg",
+          "/assets/images/img-15.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "image": "/assets/images/img-13.jpg",
+        "category": "Coats & Parkas",
+        "detail_images": [
+          "/assets/images/img-12.jpg",
+          "/assets/images/img-13.jpg",
+          "/assets/images/img-14.jpg",
+          "/assets/images/img-15.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "image": "/assets/images/img-14.jpg",
+        "category": "Tees & T-Shirt",
+        "detail_images": [
+          "/assets/images/img-12.jpg",
+          "/assets/images/img-13.jpg",
+          "/assets/images/img-14.jpg",
+          "/assets/images/img-15.jpg"
+        ]
+      },
+      {
+        "id": 12,
+        "image": "/assets/images/img-15.jpg",
+        "category": "Boxers",
+        "detail_images": [
+          "/assets/images/img-12.jpg",
+          "/assets/images/img-13.jpg",
+          "/assets/images/img-14.jpg",
+          "/assets/images/img-15.jpg"
+        ]
+      }
+    ],
+    "Limelight": [
+      {
+        "id": 13,
+        "image": "/assets/images/img-16.jpg",
+        "category": "Black Sweatshirt with...",
+        "brand": "Jhanvis Brand",
+        "price": "$123.00",
+        "detail_images": [
+          "/assets/images/img-16.jpg",
+          "/assets/images/img-17.jpg",
+          "/assets/images/img-18.jpg",
+          "/assets/images/img-19.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "image": "/assets/images/img-17.jpg",
+        "category": "Line Pattern Black H..",
+        "brand": "As's Brand",
+        "price": "$37.00",
+        "detail_images": [
+          "/assets/images/img-16.jpg",
+          "/assets/images/img-17.jpg",
+          "/assets/images/img-18.jpg",
+          "/assets/images/img-19.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "image": "/assets/images/img-18.jpg",
+        "category": "Black Shorts",
+        "brand": "Mm's Brand",
+        "price": "$37.00",
+        "detail_images": [
+          "/assets/images/img-16.jpg",
+          "/assets/images/img-17.jpg",
+          "/assets/images/img-18.jpg",
+          "/assets/images/img-19.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "image": "/assets/images/img-19.jpg",
+        "category": "Levender Hoodie with...",
+        "brand": "Nike's Brand",
+        "price": "$119.00",
+        "detail_images": [
+          "/assets/images/img-16.jpg",
+          "/assets/images/img-17.jpg",
+          "/assets/images/img-18.jpg",
+          "/assets/images/img-19.jpg"
+        ]
+      }
+    ],
+    "Similar_products": [
+      {
+        "id": 17,
+        "image": "/assets/images/img-20.jpg",
+        "category": "White T-Shirt",
+        "brand": "Priyas Brand",
+        "price": "$13.00",
+        "detail_images": [
+          "/assets/images/img-20.jpg",
+          "/assets/images/img-22.jpg",
+          "/assets/images/img-19.jpg",
+          "/assets/images/img-24.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "image": "/assets/images/img-22.jpg",
+        "category": "Dark Green Sweatshirt",
+        "brand": "Roboto’s  Brand",
+        "price": "$127.00",
+        "detail_images": [
+          "/assets/images/img-20.jpg",
+          "/assets/images/img-22.jpg",
+          "/assets/images/img-19.jpg",
+          "/assets/images/img-24.jpg"
+        ]
+      },
+      {
+        "id": 19,
+        "image": "/assets/images/img-19.jpg",
+        "category": "Levender Sweatshirt",
+        "brand": "Jhanvi’s  Brand",
+        "price": "$133.00",
+        "detail_images": [
+          "/assets/images/img-20.jpg",
+          "/assets/images/img-22.jpg",
+          "/assets/images/img-19.jpg",
+          "/assets/images/img-24.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "image": "/assets/images/img-24.jpg",
+        "category": "Urban jacket",
+        "brand": "Sagar’s  Brand",
+        "price": "$79.00",
+        "detail_images": [
+          "/assets/images/img-20.jpg",
+          "/assets/images/img-22.jpg",
+          "/assets/images/img-19.jpg",
+          "/assets/images/img-24.jpg"
+        ]
+      }
+    ],
+    "Newarrival": [
+      {
+        "id": 21,
+        "image": "/assets/images/img-1.jpg",
+        "category": "Knitted Joggers",
+        "brand": "Jhanvis Brand",
+        "price": "$123.00",
+        "detail_images": [
+          "/assets/images/img-1.jpg",
+          "/assets/images/img-3.jpg",
+          "/assets/images/img-4.jpg",
+          "/assets/images/img-2.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "image": "/assets/images/img-3.jpg",
+        "category": "Full Sleeve",
+        "brand": "Jhanvis Brand",
+        "price": "$123.00",
+        "detail_images": [
+          "/assets/images/img-1.jpg",
+          "/assets/images/img-3.jpg",
+          "/assets/images/img-4.jpg",
+          "/assets/images/img-2.jpg"
+        ]
+      },
+      {
+        "id": 23,
+        "image": "/assets/images/img-4.jpg",
+        "category": "Active T-Shirts",
+        "brand": "Jhanvis Brand",
+        "price": "$123.00",
+        "detail_images": [
+          "/assets/images/img-1.jpg",
+          "/assets/images/img-3.jpg",
+          "/assets/images/img-4.jpg",
+          "/assets/images/img-2.jpg"
+        ]
+      },
+      {
+        "id": 24,
+        "image": "/assets/images/img-2.jpg",
+        "category": "Urban Shirts",
+        "brand": "Jhanvis Brand",
+        "price": "$123.00",
+        "detail_images": [
+          "/assets/images/img-1.jpg",
+          "/assets/images/img-3.jpg",
+          "/assets/images/img-4.jpg",
+          "/assets/images/img-2.jpg"
+        ]
+      }
+    ]
+  }
+}
