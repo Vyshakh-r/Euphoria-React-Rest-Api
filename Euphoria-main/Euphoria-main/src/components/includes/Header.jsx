@@ -283,6 +283,7 @@ const SearchContainer = styled.div`
   }
   @media all and (max-width: 1080px) {
     gap: 0;
+    padding:10px 0;
   }
   @media all and (max-width: 540px) {
     padding: 12px 50px;
@@ -312,14 +313,19 @@ const StyledInput = styled.input`
   padding: 6px 5px;
   font-size: 14px;
   color: #807d7e;
+  background-color:#F6F6F6;
+  outline:none;
   @media all and (max-width: 1280px) {
     font-size: 12px;
   }
   @media all and (max-width: 1080px) {
-    width: 90px;
+    // width: 90px;
+  }
+  @media all and (max-width: 768px){
+  //  width:80px;
   }
   @media all and (max-width: 640px) {
-    width: 70px;
+    // width: 70px;
   }
   @media all and (max-width: 540px) {
     width: 100%;
@@ -338,23 +344,36 @@ const RightContainer = styled.div`
 `;
 const ImageContainer = styled.div`
   cursor: pointer;
-  width: 18px;
-  background: #f6f6f6;
+  background: #F6F6F6;
+  border-radius:8px;
   @media all and (max-width: 1280px) {
     width: 16px;
   }
 `;
 const Wishlist = styled.img`
   display: block;
-  width: 100%;
+  padding:20px;
+  width: 20px;
+  height:20px
+  
 `;
 const Account = styled.img`
   display: block;
-  width: 100%;
+  padding:20px;
+  width: 20px;
+  height:20px
+
+  
+
 `;
 const Cart = styled.img`
   display: block;
-  width: 100%;
+  padding:20px;
+  width: 20px;
+  height:20px
+  
+ 
+
 `;
 
 const MenuBar = styled.div`

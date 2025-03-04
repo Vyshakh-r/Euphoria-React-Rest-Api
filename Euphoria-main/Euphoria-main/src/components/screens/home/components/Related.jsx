@@ -49,7 +49,7 @@ const Wrapper = styled.div`
 
 const MainContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   padding: 50px 0px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -77,8 +77,17 @@ const Container = styled.div`
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+  margin-right:20px;
+  &:last-child{
+    margin-right:0;
+  }
+  @media all and (max-width: 1440px) {
+   width:600px;
+    
+  }
   @media all and (max-width: 1280px) {
     background-size: 40rem;
+    
   }
   @media all and (max-width: 1280px) {
     height: 271px;
@@ -164,12 +173,14 @@ const Explore = styled.h5`
   text-underline-offset: 5px;
   cursor: pointer;
   @media all and (max-width: 1280px) {
-    margin: 0;
+    margin:20px 0 0 0;
   }
   @media all and (max-width: 768px) {
+    margin:10px 0 0 0;
     font-size: 14px;
   }
   @media all and (max-width: 640px) {
+    margin:10px 0 0 0;
     font-size: 12px;
   }
 `;

@@ -111,7 +111,7 @@ const Heading = styled.h3`
 const ContentMainContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
   padding: 30px 0;
   margin-bottom: 70px;
   @media all and (max-width: 980px) {
@@ -123,10 +123,10 @@ const ContentMainContainer = styled.div`
 `;
 
 const ContentContainer = styled.div`
-  border: 1px solid #bebcbd;
+  border: 2px solid #bebcbd;
   width: 27%;
   border-radius: 10px;
-  padding: 23px 23px;
+  padding: 23px 28px;
   @media all and (max-width: 980px) {
     width: 41%;
   }

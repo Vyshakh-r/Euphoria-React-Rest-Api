@@ -61,7 +61,7 @@ const Bullet = styled.div`
   margin-right: 15px;
 `;
 const Heading = styled.h3`
-  font-size: 32px;
+  font-size: 34px;
   font-family: "poppinsregular";
   font-weight: 600;
   color: #3c4242;
@@ -81,11 +81,11 @@ const ProductsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 40px;
+  gap: 10px;
   padding: 30px 0;
   margin-top: 20px;
   @media all and (max-width: 1280px) {
-    gap: 20px;
+    gap: 10px;
   }
   @media all and (max-width: 768px) {
     padding: 0;
@@ -94,13 +94,14 @@ const ProductsContainer = styled.div`
 const Products = styled(Link)`
   cursor: pointer;
   @media all and (max-width: 1280px) {
-    width: 22%;
+    width: auto;
   }
   @media all and (max-width: 640px) {
-    width: 44%;
+    width: auto;
   }
 `;
 const ImageContainer = styled.div`
+  width:290px;
   margin-bottom: 10px;
 `;
 const Image = styled.img`
@@ -126,7 +127,7 @@ const Arrow = styled.img`
 `;
 
 const Category = styled.p`
-  font-size: 15px;
+  font-size: 17px;
   font-family: "poppinsmedium";
   font-weight: 700;
   color: #2a2f2f;
@@ -141,9 +142,9 @@ const Category = styled.p`
 `;
 const Text = styled.p`
   font-family: "poppinsregular";
-  font-size: 12px;
+  font-size: 13px;
   color: #7f7f7f;
-  margin: 0;
+  margin-top:10px;
   @media all and (max-width: 768px) {
     font-size: 10px;
   }

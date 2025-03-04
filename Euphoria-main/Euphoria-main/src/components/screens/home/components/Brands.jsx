@@ -65,10 +65,12 @@ const MainContainer = styled.div`
   }
 `;
 const Heading = styled.h3`
-  font-size: 40px;
+  font-size: 50px;
+  font-weight:800;
   font-family: "poppinsbold";
   color: #ffffff;
   margin: 0;
+  margin-top:10px;
   @media all and (max-width: 640px) {
     font-size: 35px;
   }
@@ -79,8 +81,10 @@ const Heading = styled.h3`
 const SubHeading = styled.p`
   color: #ffffff;
   font-family: "poppinsregular";
-  margin-bottom: 60px;
-  font-size: 16px;
+  margin-top:30px;
+  margin-bottom: 80px;
+  font-size: 22px;
+  font-weight:400;
   @media all and (max-width: 980px) {
     margin-bottom: 30px;
   }
@@ -103,6 +107,7 @@ const BrandContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  margin-bottom:20px;
   width: 80%;
 `;
 const ImageContainer = styled.div`

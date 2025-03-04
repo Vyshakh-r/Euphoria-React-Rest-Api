@@ -156,6 +156,7 @@ const Title = styled.h3`
   color: #f6f6f6;
   font-size: 26px;
   font-family: "poppinsmedium";
+  margin-bottom:40px;
   @media all and (max-width: 640px) {
     font-size: 18px;
     margin-bottom: 0;
@@ -164,8 +165,10 @@ const Title = styled.h3`
 const Subs = styled.p`
   color: #f6f6f6;
   font-family: "poppinsregular";
-  font-size: 13px;
+  font-size: 18px;
+  font-weight:500;
   cursor: pointer;
+  margin-bottom:25px;
   @media all and (max-width: 640px) {
     font-size: 10px;
     line-height: 10px;
@@ -319,7 +322,7 @@ const Div = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 44px;
+  padding: 10px 44px;
 `;
 
 const DropdownContainer = styled.div`

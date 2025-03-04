@@ -11,7 +11,7 @@ import { ReactComponent as FaArrowRight } from "../../../../assets/images/right-
 
 const Spotlight = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -32,6 +32,10 @@ const Spotlight = () => {
               <Button>Shop Now</Button>
             </ButtonContainer>
           </ContentContainer>
+          <SlidingBUtton>
+            <SlidingDiv></SlidingDiv>
+            <SlidingDivDisable></SlidingDivDisable>
+          </SlidingBUtton>
         </MainContainer>
         <MainContainer bgimage={Image2}>
           <ContentContainer>
@@ -42,6 +46,10 @@ const Spotlight = () => {
               <Button>Shop Now</Button>
             </ButtonContainer>
           </ContentContainer>
+          <SlidingBUtton>
+            <SlidingDiv></SlidingDiv>
+            <SlidingDivDisable></SlidingDivDisable>
+          </SlidingBUtton>
         </MainContainer>
         <MainContainer bgimage={Image3}>
           <ContentContainer>
@@ -52,6 +60,10 @@ const Spotlight = () => {
               <Button>Shop Now</Button>
             </ButtonContainer>
           </ContentContainer>
+          <SlidingBUtton>
+            <SlidingDiv></SlidingDiv>
+            <SlidingDivDisable></SlidingDivDisable>
+          </SlidingBUtton>
         </MainContainer>
       </Slider>
     </SliderContainer>
@@ -60,6 +72,32 @@ const Spotlight = () => {
 
 export default Spotlight;
 
+const SlidingBUtton = styled.div`
+  display:flex;
+  align-self:center;
+  justify-self:center;
+  justify-content:space-between;
+  
+  
+`;
+const SlidingDiv = styled.div`
+   width:60px;
+   height:8px;
+   background-color:#fff;
+   border-top-left-radius:8px;
+   border-bottom-left-radius:8px;
+   cursor:pointer;
+   margin-right:3px;
+`;
+const SlidingDivDisable = styled.div`
+   width:60px;
+   height:8px;
+   background-color:#fff;
+   opacity:0.5;
+   border-top-right-radius:8px;
+   border-bottom-right-radius:8px;
+   cursor:pointer;
+`;
 const SliderContainer = styled.div`
   .slick-prev:before,
   .slick-next:before {

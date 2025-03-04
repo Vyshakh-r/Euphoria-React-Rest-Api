@@ -86,7 +86,7 @@ const Bullet = styled.div`
   margin-right: 15px;
 `;
 const Heading = styled.h3`
-  font-size: 32px;
+  font-size: 34px;
   font-family: "poppinsregular";
   font-weight: 600;
   color: #3c4242;
@@ -164,7 +164,7 @@ const Arrow = styled.img`
 `;
 
 const Category = styled.p`
-  font-size: 15px;
+  font-size: 17px;
   font-family: "poppinsmedium";
   font-weight: 700;
   color: #2a2f2f;
@@ -178,9 +178,11 @@ const Category = styled.p`
 `;
 const Text = styled.p`
   font-family: "poppinsregular";
-  font-size: 12px;
+  margin-top:10px;
+  font-size: 13px;
+  font-weight:500;
   color: #7f7f7f;
-  margin: 0;
+  
   @media all and (max-width: 768px) {
     font-size: 10px;
   }
