@@ -210,7 +210,7 @@ const Wrapper = styled.div`
 const Headers = styled.div`
   display: flex;
   align-items: center;
-  padding: 18px 0;
+  padding: 30px 0;
   justify-content: space-between;
   @media all and (max-width: 540px) {
     padding: 8px 0;

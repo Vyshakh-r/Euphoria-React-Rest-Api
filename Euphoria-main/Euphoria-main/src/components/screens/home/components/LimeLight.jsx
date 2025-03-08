@@ -87,6 +87,10 @@ const ProductsContainer = styled.div`
   gap: 20px;
   padding: 30px 0;
   margin-top: 30px;
+  @media all and (max-width: 1440px) {
+   justify-content:center;
+   gap:36px;
+  }
   @media all and (max-width: 1280px) {
    
     gap: 10px;
@@ -104,7 +108,7 @@ const Products = styled(Link)`
   cursor: pointer;
   position: relative;
   @media all and (max-width: 1280px) {
-    width: 22%;
+    width: 25%;
   }
   @media all and (max-width: 980px){
     width:25%;
@@ -141,7 +145,6 @@ const WishlistImg = styled.img`
   width: 100%;
 `;
 const ImageContainer = styled.div`
-  width:290px;
   margin-bottom: 10px;
 `;
 const Image = styled.img`

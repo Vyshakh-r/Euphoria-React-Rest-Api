@@ -111,9 +111,12 @@ const Heading = styled.h3`
 const ContentMainContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   padding: 30px 0;
   margin-bottom: 70px;
+  @media all and (max-width:1440px){
+    justify-content:;
+    gap:20px;
+  }
   @media all and (max-width: 980px) {
     flex-wrap: wrap;
   }

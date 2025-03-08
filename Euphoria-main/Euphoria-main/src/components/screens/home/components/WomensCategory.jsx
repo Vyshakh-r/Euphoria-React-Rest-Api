@@ -103,6 +103,9 @@ const Products = styled(Link)`
 const ImageContainer = styled.div`
   width:290px;
   margin-bottom: 10px;
+  @media all and (max-width: 300px) {
+   width:auto;
+  }
 `;
 const Image = styled.img`
   display: block;
